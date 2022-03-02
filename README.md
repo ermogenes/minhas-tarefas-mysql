@@ -37,6 +37,7 @@ CREATE TABLE `tarefas`.`usuario` (
   `id` VARCHAR(50) NOT NULL,
   `nome` VARCHAR(200) NOT NULL,
   `senha` VARCHAR(256) NOT NULL,
+  `papel` VARCHAR(50) NOT NULL DEFAULT 'usuario',
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
